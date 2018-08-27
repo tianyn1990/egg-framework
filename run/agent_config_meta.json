@@ -1,0 +1,224 @@
+{
+  "framework": {
+    "name": "/Users/hztianyanan/Documents/github/egg-framework/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-watcher/config/config.unittest.js",
+    "eventSources": {
+      "default": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-multipart/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "name": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "keys": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "version": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "private": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "dev": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "test": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "cov": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "strict": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "depth": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "env": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "level": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.unittest.js",
+    "disableConsoleAfterReady": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.unittest.js",
+    "appLogName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "port": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/hztianyanan/Documents/github/egg-framework/node_modules/egg/config/config.default.js"
+  }
+}
